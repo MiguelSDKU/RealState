@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/337be747ec.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header-flex">
+      <h1>RealEstate</h1>
+      <div>
+        <span class="header-span">About</span>
+        <span class="header-span">Blog</span>
+        <span class="header-span">Contact</span>
+      </div>
+    </header>
+    <main>
+      <h1>Contact</h1>
+      <h2>Fill the next information</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+        officia repudiandae voluptatem nisi quo fuga quas natus voluptates
+        praesentium quia, libero architecto qui corrupti maxime molestias. Nemo
+        molestias quia reiciendis?
+      </p>
+      <div class="formulario">
+        <form>
+          <fieldset class="form-flex">
+            <legend>Personal information</legend>
+            <div class="container-form">
+              <div class="label">
+                <label class="label-size" for="name">Name:</label>
+                <input class="text-area" type="text" id="name" name="name" />
+              </div>
+              <div class="label">
+                <label for="email" class="label-size">Email:</label
+                ><input
+                  class="text-area"
+                  type="email"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="label">
+                <label for="phone" class="label-size">Phone number:</label
+                ><input class="text-area" type="tel" id="phone" name="phone" />
+              </div>
+              <div class="label">
+                <label for="message" class="label-size">Message:</label>
+
+                <textarea
+                  class="text-area"
+                  id="message"
+                  name="message"
+                ></textarea>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="form-flex">
+            <legend>Product information</legend>
+            <div class="container-form">
+              <div class="label">
+                <label for="type" class="label-size">Type:</label>
+                <select id="type" name="type" class="text-area">
+                  <option value="">--- Option 1 ---</option>
+                  <option value="option2">--- Option 2 ---</option>
+                  <option value="option3">--- Option 3 ---</option>
+                </select>
+              </div>
+              <div class="label">
+                <label for="number" class="label-size">Number:</label>
+                <input
+                  class="text-area"
+                  type="number"
+                  id="number"
+                  name="number"
+                />
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="form-flex">
+            <legend>Contact information</legend>
+            <div class="container-form">
+              <div class="contact-flex">
+                <div class="selection">
+                  <label for="email-contact" class="contact-size">Email:</label>
+                  <input
+                    type="radio"
+                    id="email-contact"
+                    name="contact-method"
+                    value="email"
+                  />
+                </div>
+                <div class="selection">
+                  <label for="phone-contact" class="contact-size">Phone:</label>
+                  <input
+                    type="radio"
+                    id="phone-contact"
+                    name="contact-method"
+                    value="phone"
+                  />
+                </div>
+              </div>
+              <br />
+              <br />
+              <div class="contact-flex2">
+                <div class="selection">
+                  <label for="date" class="contact-size">Date:</label>
+                  <input class="text-area" type="date" id="date" name="date" />
+                </div>
+                <div class="selection">
+                  <label for="hour" class="contact-size">Hour:</label>
+                  <input class="text-area" type="time" id="hour" name="hour" />
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container-footer">
+        <div>Powered by <span class="bold underline">Zillow</span></div>
+        <div>Copyright © 2024 <span class="bold">| </span><span class="bold underline">Privacy Policy</span></div>
+        <div>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-youtube"></i
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

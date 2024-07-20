@@ -1,0 +1,156 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: orange;
+}
+
+header h1 {
+  font-weight: 5dvh;
+  font-size: 4.5dvh;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 5dvh;
+  padding-bottom: 15dvh;
+}
+
+.header-span {
+  margin-right: 4dvh;
+  font-size: larger;
+}
+
+/* Main */
+
+main {
+  justify-content: center;
+  text-align: center;
+  margin-top: 5dvh;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10dvh;
+}
+
+main h1 {
+  margin-bottom: 2dvh;
+}
+
+main h2 {
+  margin-bottom: 1dvh;
+}
+
+main p {
+  margin-bottom: 1dvh;
+}
+
+.formulario {
+  background-color: rgb(235, 234, 234);
+  padding: 3dvh;
+  text-align: left;
+  width: 100%;
+}
+
+legend {
+  margin-left: 2dvh;
+  font-size: 2dvh;
+}
+
+.form-flex {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2dvh;
+  border-radius: 1dvh;
+}
+
+.container-form {
+  margin: 1.5dvh;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15dvh;
+  margin-bottom: 3dvh;
+}
+
+.label-size {
+  width: 15%;
+  font-size: 2dvh;
+}
+
+.text-area {
+  box-sizing: border-box;
+  width: 100%;
+  height: 5dvh;
+}
+
+select {
+  font-size: 1.5dvh;
+  text-align: center;
+  background-color: white;
+  font-weight: light;
+}
+
+.contact-flex {
+  display: flex;
+
+  margin-top: 7dvb;
+  margin-bottom: 7dvh;
+  gap: 25%;
+}
+
+.contact-size {
+  font-size: 2dvh;
+  margin-right: 30dvh;
+}
+
+/* .selection {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10dvh;
+} */
+
+.contact-flex2 {
+  display: flex;
+  margin-top: 7dvb;
+  margin-bottom: 7dvh;
+  gap: 20%;
+}
+
+.footer {
+  background-color: rgb(235, 234, 234);
+  height: 15dvh;
+  border-top: 1px solid black;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8dvh;
+  margin-left: 5dvb;
+  margin-right: 5dvh;
+  font-size: 2dvh;
+}
+
+.fa-brands {
+  padding: 1dvh;
+  margin-right: 1dvh;
+  margin-left: 1dvh;
+  border: 1px solid black;
+  border-radius: 50%;
+}
