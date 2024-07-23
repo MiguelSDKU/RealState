@@ -115,3 +115,24 @@ h2 {
   border: none;
   width: 100%;
 }
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  /* Main */
+  .flex_main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex_an {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img_div {
+    width: 100%;
+  }
+
+  .img_an {
+    margin-top: 0dvh;
+  }
+}
